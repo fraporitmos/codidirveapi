@@ -40,7 +40,6 @@ router.post(
 router.get( 
     "/temporal/:id_solicitud",      
     [formdata.fields([])],
-              
     getRequestTemporals,
 
 );
